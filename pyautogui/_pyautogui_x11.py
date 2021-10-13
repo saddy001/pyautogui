@@ -5,6 +5,7 @@ import sys
 import os
 from pyautogui import LEFT, MIDDLE, RIGHT
 
+import Xlib.threaded
 from Xlib.display import Display
 from Xlib import X
 from Xlib.ext.xtest import fake_input
